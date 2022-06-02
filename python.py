@@ -4,7 +4,7 @@ df = json.load(tmp)
 for i in range(len(df)):
     tmp_mints = df[i]['whitelisted_mints']
     del df[i]['whitelisted_mints']
-    df[i]['is_trusted_volume'] = True
+    df[i]['is_trusted_volume'] = False
     if "banksea_info_post_url" in df[i].keys():
         pass
     else:
