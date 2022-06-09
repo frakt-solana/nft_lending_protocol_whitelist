@@ -23,6 +23,6 @@ print(len(df))
     # if df[i]['creator'] == "9BKWqDHfHZh9j39xakYVMdr6hXmCLHH5VfCpeq2idU9L":
     #     print(i)
 
-# with open("whitelist.json", "w") as file:
-#     json.dump(df, file, indent = 1)
+with open("whitelist.json", "w") as file:
+    json.dump(df, file, indent = 1)
     
