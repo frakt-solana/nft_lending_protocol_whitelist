@@ -12,9 +12,9 @@
   "hyperspaceSlug": "frakt",
   "is_trusted_volume": false,
   "time_based_collection_info": "5978xADafoG1rymZg4PmMge6x5TFfGnrL8WDGi9Cu8WG",
-  "price_based_collection_info": "42cAnqUMSRQiSrqRmRtppMtMCXmVrF5NVECudgD3y5Nz",
+  "price_based_collection_info": null,
   "time_based_liquidity_pool": "AXQcr2PePPRkKCFtgYtCWR6bDGaFdZA9U3Cys47HJfbM",
-  "price_based_liquidity_pool": "Gb8muSC4yGG2J8gVpCNKBqh3xhf9XbiaxqXyAf7kkx6j",
+  "price_based_liquidity_pool": null,
   "whitelisted_mints": [
    "8WBVZHSi84gNQY9yxoTRHe67Z2u3HFx31JRN2QfmqMKD",
    "XkJ1gG7WBfVKfsnR5T6d1aUxUzhGbd6Z1fC9PZxVmTu",
