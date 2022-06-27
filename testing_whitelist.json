@@ -3,7 +3,7 @@
   "name": "FRAKT",
   "description": "",
   "creator": "6wPYbuGRXZjVw2tCeTxwRiQU7AzFDTeFEKuUFpJZpcix",
-  "royalty_address": "6wPYbuGRXZjVw2tCeTxwRiQU7AzFDTeFEKuUFpJZpcix",
+  "royalty_address": "Gu6faGp621MczGbkVtTppFNjJaoBSGQTM51NsQdJXLyR",
   "upper_limit": 10000000000,
   "tensor_slug": "frakt",
   "price_oracle_uri": "https://nft-price-aggregator.herokuapp.com/creator/6wPYbuGRXZjVw2tCeTxwRiQU7AzFDTeFEKuUFpJZpcix",
