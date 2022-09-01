@@ -55,6 +55,12 @@ for i in wl:
   for j in response.json()['project_stat_hist_entries']:
     volume += j['volume']
   i['volume7d'] = volume
+  if i['tier'] == 1:
+    i['volume_with_tiers'] = i['volume7d'] * 1.25
+  elif i['tier'] == 2:
+    i['volume_with_tiers'] = i['volume7d'] * 0.7
+  else:
+    i['volume_with_tiers'] = i['volume7d'] * 0.3
   if counter_it % 10 == 0:
     print(counter_it)
   counter_it += 1

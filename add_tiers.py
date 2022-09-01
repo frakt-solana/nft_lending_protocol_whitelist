@@ -12,6 +12,7 @@ for i in wl:
     del i['whitelisted_mints']
     i['tier'] = int(tiers.loc[tiers['name'] == i['name'], 'tier'].values[0])
     i['volume7d'] = 0
+    i['volume_with_tiers'] = 0
     i['whitelisted_mints'] = tmp_mints
 
 
