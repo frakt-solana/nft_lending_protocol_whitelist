@@ -6,8 +6,7 @@ import requests
 now = int(time.time())
 
 API_KEY = ""
-# os.environ.get('DEBUSSY', 'Not Set')
-wl = json.load(open("tmp_wl.json"))
+wl = json.load(open("whitelist.json"))
 
 from collections import namedtuple
 Response = namedtuple('Response', ['status_code'])
@@ -65,5 +64,5 @@ for i in wl:
     print(counter_it)
   counter_it += 1
 
-with open("tmp_wl.json", "w") as file:
+with open("whitelist.json", "w") as file:
     json.dump(wl, file, indent = 1)
